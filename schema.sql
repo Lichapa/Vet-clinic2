@@ -84,3 +84,12 @@ CREATE TABLE visits (
     FOREIGN KEY (vets_id) REFERENCES vets (id) ON DELETE CASCADE,
     PRIMARY KEY (vets_id, animal_id, date_of_visit)
 )
+
+ALTER TABLE visits DROP CONSTRAINT visits_pkey;
+
+CREATE INDEX animal_id_asc ON visits(animal_id ASC);
+
+CREATE INDEX vets_id_asc ON visits(vets_id ASC);
+
+CREATE INDEX email_asc ON owners(email ASC);
+
