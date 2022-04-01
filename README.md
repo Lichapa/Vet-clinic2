@@ -1,7 +1,12 @@
+
 # VET CLINIC
 
 > This project is database for a Vet clinic that is used to practice Database Module for microverse
 > This milestone is for practicing perfomance and normalization of a database.
+
+## Database Diagram
+See the [the diagram of the database](ERD.md)
+
 ## Getting Started
 
 This repository includes files with SQL that can be used to recreate a database:
